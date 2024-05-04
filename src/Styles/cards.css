@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.card{
+    /* border: 1px solid; */
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 95px;
+    /* background-color: black; */
+}
+.container-icon{
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95px;
+    border-radius: 15px;
+    width: 100%;
+   
+    /* margin: 10px ; */
+}
+.container-icon img{
+    width: auto;
+}
+.card h3{
+    margin: 0;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin: 3px;
+    text-align: center;
+    width: 100%;
+    /* border: 1px solid; */
+}
